@@ -1,0 +1,24 @@
+{
+  "name": "Demos Open Router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "structured-output": "tsc && node dist/src/demos/2-structured-output.js",
+    "tool-calling": "tsc && node dist/src/demos/4-tool-calling.js",
+    "parameters": "tsc && node dist/src/demos/1-parameters.js",
+    "image-gen": "tsc && node dist/src/demos/5-image-gen.js"
+  },
+  "keywords": [],
+  "author": "Juan Diego Etcheverry",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "openai": "^5.16.0"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
